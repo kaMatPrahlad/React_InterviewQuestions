@@ -1,6 +1,6 @@
 //single selection
 //multiple selection
-import style from ".style.css";
+// import style from ".style.css";
 import { useState } from "react";
 import data from "./data";
 
