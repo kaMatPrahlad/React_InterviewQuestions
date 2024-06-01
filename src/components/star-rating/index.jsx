@@ -3,7 +3,7 @@ import React from 'react'
 export default function StarRating() {
   return (
     <div>
-      Hello index
+      Hello from index
       
     </div>
   )
