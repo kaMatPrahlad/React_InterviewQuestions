@@ -12,7 +12,13 @@ export default function ApiFetching() {
     <div className="">
       {/* <h1>Title: {data.userId}</h1> */}
       <h2>Body: {data.body}</h2>
-      {/* {data ? <h1>Title: {data.title}</h1> : <div>Loading...</div>} */}
+      {data ? (
+        <div>
+          <h1>Title: {data.title}</h1>
+        </div>
+      ) : (
+        <div>Loading...</div>
+      )}
     </div>
   );
 }
