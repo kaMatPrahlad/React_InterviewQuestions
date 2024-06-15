@@ -1,7 +1,10 @@
 import "./App.css";
 import Accordian from "./components/accordian";
+import ApiFetching from "./components/Api-Fetching";
+import TimerCount from "./components/Build-Timer";
 import RandomColor from "./components/random-color";
 import StarRating from "./components/star-rating";
+import ToggleSwitch from "./components/Toggle-Switch";
 import UserInput from "./components/user-input";
 
 function App() {
@@ -17,7 +20,18 @@ function App() {
       {/* <StarRating /> */}
 
       {/* User-input */}
-      <UserInput />
+      {/* <UserInput /> */}
+
+      {/* Toggle Switch */}
+      {/* <ToggleSwitch /> */}
+
+      {/* API-FETCHING */}
+      {/* <ApiFetching /> */}
+
+      {/* BUILD SPECIFIED TIMER COUNT */}
+      {/* <TimerCount /> */}
+
+      
     </div>
   );
 }
