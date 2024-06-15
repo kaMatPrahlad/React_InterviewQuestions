@@ -23,15 +23,13 @@ function App() {
       {/* <UserInput /> */}
 
       {/* Toggle Switch */}
-      {/* <ToggleSwitch /> */}
+      {/* <ToggleSwitch />  */}
 
       {/* API-FETCHING */}
-      {/* <ApiFetching /> */}
+      <ApiFetching />
 
       {/* BUILD SPECIFIED TIMER COUNT */}
       {/* <TimerCount /> */}
-
-      
     </div>
   );
 }
