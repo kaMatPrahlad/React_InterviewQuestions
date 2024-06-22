@@ -4,6 +4,7 @@ import ApiFetching from "./components/Api-Fetching";
 import TimerCount from "./components/Build-Timer";
 import RandomColor from "./components/random-color";
 import StarRating from "./components/star-rating";
+import TodoList from "./components/Todo-List";
 import ToggleSwitch from "./components/Toggle-Switch";
 import UserInput from "./components/user-input";
 
@@ -26,10 +27,13 @@ function App() {
       {/* <ToggleSwitch />  */}
 
       {/* API-FETCHING */}
-      <ApiFetching />
+      {/* <ApiFetching /> */}
 
       {/* BUILD SPECIFIED TIMER COUNT */}
       {/* <TimerCount /> */}
+
+      {/* Todo List */}
+      <TodoList />
     </div>
   );
 }
