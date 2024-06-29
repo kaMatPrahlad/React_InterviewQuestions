@@ -7,6 +7,7 @@ import StarRating from "./components/star-rating";
 import TodoList from "./components/Todo-List";
 import ToggleSwitch from "./components/Toggle-Switch";
 import UserInput from "./components/user-input";
+import CreateContext from "./components/context";
 
 function App() {
   return (
@@ -33,7 +34,10 @@ function App() {
       {/* <TimerCount /> */}
 
       {/* Todo List */}
-      <TodoList />
+      {/* <TodoList /> */}
+
+      {/* CREATE CONTEXT */}
+      <CreateContext />
     </div>
   );
 }
