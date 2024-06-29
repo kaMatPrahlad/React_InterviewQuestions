@@ -1,12 +1,12 @@
 import React from "react";
+import CreateContext from "./index";
 
 export default function Home() {
   return (
     <div>
       Im Home
       <div>
-        <h1>my name is</h1>
-        <h1>I'm </h1>
+        <CreateContext/>
       </div>
     </div>
   );
