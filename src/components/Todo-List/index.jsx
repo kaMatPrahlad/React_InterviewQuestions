@@ -24,9 +24,9 @@ export default function TodoList() {
     setInputvalue("");
   };
 
-  const handledelete = (e) => {
-    setTask(e.target.value['']);
-  };
+  // const handledelete = (e) => {
+  //   setTask(e.target.value['']);
+  // };
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -68,7 +68,7 @@ export default function TodoList() {
                   {item}
                   <button
                     className="bg-red-400 border cursor-pointer rounded-lg text-white px-4"
-                    onClick={handledelete}
+                    // onClick={handledelete}
                   >
                     Remove
                   </button>

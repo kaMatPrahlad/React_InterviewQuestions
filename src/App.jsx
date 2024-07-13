@@ -1,18 +1,19 @@
 // import { UserProvider } from "./UserContext";
-import "./App.css";
+// import "./App.css";
 import Accordian from "./components/accordian";
 import ApiFetching from "./components/Api-Fetching";
 import TimerCount from "./components/Build-Timer";
 import RandomColor from "./components/random-color";
 import StarRating from "./components/star-rating";
 import TodoList from "./components/Todo-List";
+import TodoList2 from "./components/Todo-List/TodoList";
 import ToggleSwitch from "./components/Toggle-Switch";
 import UserInput from "./components/user-input";
 import { Hero } from "./context/UserName";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App h-full w-full bg-black">
       {/* {Accordian} */}
       {/* <Accordian /> */}
       {/* {Random-color} */}
@@ -29,7 +30,8 @@ function App() {
       {/* <TimerCount /> */}
 
       {/* Todo List */}
-      <TodoList />
+      {/* <TodoList /> */}
+      <TodoList2 />
 
       {/* CREATE CONTEXT */}
       {/* <Hero>
